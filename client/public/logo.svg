@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Definitions for Gradients and Filters -->
+  <defs>
+    <linearGradient id="kheloraPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E4252"/>
+      <stop offset="100%" stop-color="#0F161D"/>
+    </linearGradient>
+    <linearGradient id="kheloraLime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2FFA8"/>
+      <stop offset="40%" stop-color="#C3FF01"/>
+      <stop offset="100%" stop-color="#A8DF00"/>
+    </linearGradient>
+    <linearGradient id="kheloraNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#193847"/>
+      <stop offset="100%" stop-color="#0F161D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Athletic Shield / Crest (Transparent Background) -->
+  <path d="M 100 12 C 154 12 186 34 186 92 C 186 148 134 182 100 192 C 66 182 14 148 14 92 C 14 34 46 12 100 12 Z" 
+        fill="url(#kheloraPrimary)" stroke="url(#kheloraLime)" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- Inner Precision Contour -->
+  <path d="M 100 24 C 144 24 172 42 172 92 C 172 139 128 170 100 180 C 72 170 28 139 28 92 C 28 42 56 24 100 24 Z" 
+        fill="url(#kheloraNavy)" stroke="#C3FF01" stroke-width="1.5" stroke-dasharray="4 2.5" opacity="0.6"/>
+
+  <!-- Dynamic Athletic "K" Crest Iconography -->
+  <!-- Vertical Pillar of the 'K' (Engineered Speed Post) -->
+  <path d="M 68 46 L 86 46 L 86 154 L 68 154 Z" fill="#FFFFFF" rx="2.5"/>
+  <path d="M 72 52 L 82 52 L 82 148 L 72 148 Z" fill="url(#kheloraLime)" opacity="0.9" rx="1.5"/>
+
+  <!-- Dynamic Upper Chevron Arm of the 'K' (Ascending Flight) -->
+  <path d="M 86 100 L 126 50 L 152 50 L 102 110 Z" fill="#FFFFFF"/>
+  <path d="M 100 95 L 128 58 L 142 58 L 110 102 Z" fill="url(#kheloraLime)"/>
+
+  <!-- Dynamic Lower Diagonal Arm of the 'K' (Ground Power) -->
+  <path d="M 94 104 L 142 154 L 120 154 L 84 116 Z" fill="#FFFFFF"/>
+  <path d="M 98 112 L 132 148 L 122 148 L 92 116 Z" fill="url(#kheloraLime)"/>
+
+  <!-- Precision Athletic Star / Apex Spark -->
+  <circle cx="100" cy="34" r="3.5" fill="#C3FF01"/>
+  <circle cx="82" cy="38" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="118" cy="38" r="2" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- Subtle Sport Horizon Arc -->
+  <path d="M 52 162 Q 100 174 148 162" fill="none" stroke="#C3FF01" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
